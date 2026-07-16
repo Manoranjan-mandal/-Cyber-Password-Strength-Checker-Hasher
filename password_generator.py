@@ -1,9 +1,9 @@
 import random
 import string
 
-# 
+ 
 # Secure Password Generator
-# 
+
 
 def generate_password(length=12):
     """
