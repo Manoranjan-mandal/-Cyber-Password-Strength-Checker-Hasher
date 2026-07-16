@@ -3,9 +3,8 @@ from Password_checker import check_password_strength
 from hasher import hash_password
 from password_generator import generate_password
 
-# ============================================
 # Cyber Password Strength Checker + Hasher
-# ============================================
+
 
 def show_menu():
     print("\n" + "=" * 55)
