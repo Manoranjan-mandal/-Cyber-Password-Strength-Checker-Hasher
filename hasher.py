@@ -1,8 +1,8 @@
 import hashlib
 
-# ============================================
+
 # SHA-256 Password Hasher
-# ============================================
+
 
 def hash_password(password):
     """
@@ -17,9 +17,9 @@ def hash_password(password):
     return hashlib.sha256(password.encode("utf-8")).hexdigest()
 
 
-# ============================================
+
 # Run Directly (Testing)
-# ============================================
+
 
 if __name__ == "__main__":
     password = input("Enter a password to hash: ")
