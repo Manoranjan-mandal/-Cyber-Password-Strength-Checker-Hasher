@@ -1,9 +1,9 @@
 import random
 import string
 
-# ============================================
+# 
 # Secure Password Generator
-# ============================================
+# 
 
 def generate_password(length=12):
     """
@@ -38,9 +38,8 @@ def generate_password(length=12):
     return "".join(password)
 
 
-# ============================================
+
 # Test
-# ============================================
 
 if __name__ == "__main__":
     print("Generated Password:")
